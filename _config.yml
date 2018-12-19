@@ -2,3 +2,5 @@ theme: jekyll-theme-cayman
 name: Ali Hilmi Uysal, Data Science Enthusiast
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+# Google Analytics
+google_analytics: UA-130996077-1
