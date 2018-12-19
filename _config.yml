@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 name: Ali Hilmi Uysal, Data Science Enthusiast
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
