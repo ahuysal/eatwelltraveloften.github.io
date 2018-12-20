@@ -47,10 +47,11 @@ margin: 0 auto;
 p {
 text-align: justify;
 text-justify: newspaper;
-font-size: 100%;
-line-height: 1.5;
-border: 1px solid powderblue;
-padding: 30px;
+font-size: 110%;
+line-height: 1.7;
+border: 3px solid powderblue;
+padding: 50px;
+margin: 50px;
 }
 
 h1 { font-size: 175%; }
@@ -62,7 +63,11 @@ text-decoration: none;
 outline: none;
 }
 
-a:hover { text-decoration: underline; }
+a:hover { 
+text-decoration: underline;
+background-color: #555;
+color: white;
+}
 
 #me {
 display: block;
@@ -92,7 +97,7 @@ border-bottom: thin solid #999;
 margin-bottom: 1.618em;
 }
 
-nav ul, footer ul { padding-left: 0; }
+nav ul { padding-left: 0; }
 
 h1, h2, nav ul, #tagline { text-align: center; }
 
