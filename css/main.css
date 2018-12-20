@@ -50,6 +50,7 @@ text-justify: newspaper;
 font-size: 100%;
 line-height: 1.5;
 border: 1px solid powderblue;
+padding: 30px;
 }
 
 h1 { font-size: 175%; }
@@ -71,7 +72,7 @@ margin: 0 auto;
 padding: .809em 0;
 }
 
-nav li, footer li {
+nav li {
 font-family: "PTSans", sans-serif;
 font-weight: 700;
 }
@@ -79,19 +80,16 @@ font-weight: 700;
 #tagline {
 padding-bottom: .809em;
 border-bottom: thin solid #F3F3F3;
+width: 24%;
+display: inline-block;
 }
 
 p:first-of-type { text-indent: 1.6em; }
 
-nav, footer {
+nav {
 border-top: thin solid #999;
 border-bottom: thin solid #999;
 margin-bottom: 1.618em;
-}
-
-nav li, footer li {
-width: 24%;
-display: inline-block;
 }
 
 nav ul, footer ul { padding-left: 0; }
