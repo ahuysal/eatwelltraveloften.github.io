@@ -1,36 +1,85 @@
+@font-face {
+font-family: 'PTSerif';
+src: local('PT Serif'), local('PTSerif'),
+	 url('../fonts/PTSerif.woff2') format('woff2'),
+	 url('../fonts/PTSerif.woff') format('woff');
+}
+@font-face {
+font-family: 'PTSans';
+src: local('PT Sans'), local('PT Sans'),
+	 url('../fonts/PTSans.woff2') format('woff2'),
+	 url('../fonts/PTSans.woff') format('woff');
+}
+::-moz-selection {
+background: #049CDB;
+color: #FFF;
+text-shadow: none;
+}
+::selection {
+background: #049CDB;
+color: #FFF;
+text-shadow: none;
+}
+html { border-top: 4px solid #232E35; }
+html, li a {
+background: white;
+color: #333;
+}
 body {
-    margin: 60px auto;
-    width: 70%;
+font: .6em/1.618 "PTSerif", Georgia, serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: antialiased;
+font-smoothing: antialiased;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+.wrapper {
+max-width: 32em;
+padding: 1.618em;
+margin: 0 auto;
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+text-align: justify;
+text-justify: newspaper;
+font-size: 110%;
+line-height: 1.75;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+h1 { font-size: 175%; }
+h2 { font-size: 125%; }
+a {
+color: #049CDB;
+text-decoration: none;
+outline: none;
+}
+a:hover { text-decoration: underline; }
+#me {
+display: block;
+width: 60px;
+border-radius: 50%;
+margin: 0 auto;
+padding: .809em 0;
+}
+nav li, footer li {
+font-family: "PTSans", sans-serif;
+font-weight: 700;
+}
+#tagline {
+padding-bottom: .809em;
+border-bottom: thin solid #F3F3F3;
+}
+p:first-of-type { text-indent: 1.6em; }
+nav, footer {
+border-top: thin solid #999;
+border-bottom: thin solid #999;
+margin-bottom: 1.618em;
+}
+nav li, footer li {
+width: 24%;
+display: inline-block;
+}
+nav ul, footer ul { padding-left: 0; }
+h1, h2, nav ul, #tagline { text-align: center; }
+@media (min-width:641px) {
+body { font-size: 1em; }
+#me { width: 120px; }
 }
 
 ul.posts { 
