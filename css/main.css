@@ -106,18 +106,27 @@ h1, h2, nav ul, #tagline { text-align: center; }
 
 @media (min-width:641px) {
 body { font-size: 1em; }
-#me { width: 130px; }
+#me { width: 100px; }
 }
 
 ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+    margin: 10px auto 20px; 
+    font-size: 1.2em;
+	padding: 1.618em;
 }
 
 ul.posts li {
     list-style: none;
 }
 
-.active {
-  background-color: #555;
+ul.contact {
+	margin: auto;
+	list-style-type: none;
+	text-align: center;
+}
+
+ul.contact li {
+	margin: auto;
+	list-style-type: none;
+	display: inline;
 }
