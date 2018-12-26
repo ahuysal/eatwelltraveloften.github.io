@@ -130,3 +130,14 @@ ul.contact li {
 	list-style-type: none;
 	display: inline;
 }
+
+ul.projects {
+	margin: auto;
+	padding: auto;
+	line-height: 4;
+}
+
+ul.projects li {
+	margin: auto;
+	padding: auto;
+}
